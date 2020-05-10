@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - MovementProvider
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.EditorToolbar
     - UnityEditor.ProBuilder.ProBuilderEditor
@@ -73,9 +75,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 17898}
     - Class: 114
       Script: {instanceID: 17900}
+    - Class: 114
+      Script: {instanceID: 21566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -724,7 +730,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRSimpleInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 7a11b42660d16323a296a71fd5b217fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovementProvider
   platform: 13
   scenePathNames:
   - Assets/Scenes/Carquinez House.unity
-  playerPath: /Users/joehardy/Dev2020/Quest builds/carquinez_2.apk
+  playerPath: /Users/joehardy/Dev2020/Quest builds/carquinez_4.apk
